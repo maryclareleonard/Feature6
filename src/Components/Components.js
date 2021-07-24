@@ -26,8 +26,7 @@ const Components = () => {
         <Route path="/errorPage" component={ErrorPage} />
         <Route path="/promptLogin" component={PromptLogin} />
         <Route path="/homeError" component={HomeError} />
-        <Redirect to="/homeError" />{" "}
-        {/* show error don't just return to home page*/}
+        <Redirect to="/home" />{" "}
       </Switch>
     </Router>
   );
